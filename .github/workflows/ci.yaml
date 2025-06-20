@@ -6,6 +6,8 @@ on:
     types:
      - opened 
      - synchronize
+  push:
+     - develop
 jobs:
   linting-job:
     runs-on: ubuntu-latest
